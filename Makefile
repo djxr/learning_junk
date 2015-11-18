@@ -2,10 +2,11 @@ CC=cc
 CFLAGS=-std=c99 -Wall -g -pedantic
 LDFLAGS=-lSDL2 -lm
 
-all: main
+all: one two
 
 run:
-	./main
+	./two
 
 clean:
-	rm -f main
+	rm -f one
+	rm -f two
